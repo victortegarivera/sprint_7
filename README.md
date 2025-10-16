@@ -2,19 +2,15 @@
 
 # Análisis Interactivo de Vehículos Usados
 
-Esta es una aplicación web desarrollada con Streamlit que permite visualizar de manera interactiva los datos de vehículos usados en EE.UU.
+Esta aplicación web permite explorar un conjunto de datos sobre vehículos usados en Estados Unidos. 
+Su objetivo principal es proporcionar una visualización interactiva de aspectos clave de los datos, 
+como el kilometraje (odómetro) y el precio de los vehículos.
 
-## Funcionalidades
+### Funcionalidades:
+- Visualizar un **histograma** para analizar la distribución del kilometraje recorrido por los vehículos.
+- Explorar un **gráfico de dispersión** para estudiar la relación entre el kilometraje y el precio.
 
-- Visualización de la distribución del odómetro con un histograma interactivo.
-- Exploración de la relación entre el kilometraje (odómetro) y el precio mediante un gráfico de dispersión (scatter plot).
-- Interfaz sencilla que permite generar los gráficos con solo pulsar un botón.
-
-## Cómo usar la aplicación
-
-1. Ejecuta la aplicación localmente con: `streamlit run app.py`.
-2. Haz clic en los botones para generar las visualizaciones deseadas.
-3. Asegúrate de tener el archivo `vehicles_us.csv` en el mismo directorio.
+Estos gráficos ayudan a identificar patrones, tendencias y posibles anomalías en los datos del mercado de vehículos usados.
 
 ## Requisitos
 
